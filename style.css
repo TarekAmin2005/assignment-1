@@ -1,6 +1,6 @@
 *{
-    margin: 0 0;
-    padding: none;
+    margin: 0;
+    padding: 0;
     
     
 }
@@ -9,14 +9,7 @@ body{
   font-family: "Inter", sans-serif;
 }
 
-body{
-    width: 1600px;
-    height: 750px; 
-    background-image: url("./assets/hero-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+
 /* Shared style */
 .btn{
     color: rgba(255, 255, 255, 1);
@@ -57,34 +50,41 @@ body{
     font-weight: 500;   
 }
 
+.banner{
+    width: 1600px;
+    height: 674px;
+    background-image: url("./assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
+
 .banner .banner-content{
-    margin-top: 138px;
-    align-items: center;
-    display: block;
+    
     text-align: center;
 }
 .banner-content .early{
    font-size: 16px;
-   font-weight: 500px;
+   font-weight: 500;
    line-height: 19px;
    color: rgba(70, 145, 101, 1);
    background-color: rgba(255, 255, 255, 1);
    border-radius: 1000px;
 max-width: 229px;
-margin: 0 auto;
-padding: 8 12;
+margin: 138px auto 16px;
+padding: 8px 12px;
 
 }
 .banner-content h1{
     margin-top: 16px;
    font-size: 72px;
-   font-weight: 700px;
+   font-weight: 700;
    line-height: 84px;
 }
 .banner-content .text{
     margin-top: 16px;
     font-size: 18px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 24px;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 32px;
@@ -99,3 +99,51 @@ padding: 8 12;
     border-radius: 4px;
     margin-left: 16px;
 }
+.note{
+    text-align: center;
+    margin-top: 80px;
+}
+.note .text-part h2{
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+}
+.note .text-part p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(98, 115, 130, 1);
+    margin-top: 16px;
+}
+.note .card-holder{
+    display: flex;
+    justify-content: space-between;
+}
+.note .card{
+    width: 322px;
+    height: 300px;
+    margin: 24px;
+    padding: 24px;   
+    background-color:rgba(255, 255, 255, 1);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.note .card h4{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    margin: 16px auto;
+}
+.note .card p{
+    color: rgba(98, 115, 130, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line height: 20px;
+}
+.note .card .icon{
+    background-color: rgba(249, 85, 85, 1);
+    border-radius: 1000px;
+    padding: 10px;
+    margin-top: 70px;
+}
+
